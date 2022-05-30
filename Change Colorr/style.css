@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    height: 400px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+button{
+    padding: 20px;
+    background-color:#f6f4f4f6 ;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: 800;
+    transition: .9s ease;
+
+}
+button:hover{
+    transform: scale(1.1);
+    background-color: red;
+}
+.mydiv{
+    margin-left: 20px;
+    background-color: red;
+    height: 165px;
+    width: 50%;
+    border-radius: 10px;
+}
